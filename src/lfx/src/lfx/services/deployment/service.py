@@ -193,7 +193,6 @@ class DeploymentService(Service, DeploymentServiceProtocol, ABC):
         """
         raise NotImplementedError
 
-
     @abstractmethod
     async def teardown(self) -> None:
         raise NotImplementedError

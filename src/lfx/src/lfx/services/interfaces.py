@@ -344,4 +344,3 @@ class DeploymentServiceProtocol(Protocol):
         Must return provider-truth schema/defaults used by UI or validation.
         """
         ...
-
